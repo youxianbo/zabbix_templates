@@ -3,10 +3,10 @@ A set of templates and scripts for zabbix monitoring software
 
 # Use
 
-文件放置路径：
+文件放置路径：usr/local/bin/zabbix
 ```
-/etc/zabbix/zabbix_agentd.d/userparameters_redis.conf
-/etc/zabbix/script/redis/zabbix_check_redis.py
+cp zabbix_redis/etc/zabbix/zabbix_agentd.d/userparameters_redis.conf /etc/zabbix/zabbix_agentd.d/userparameters_redis.conf
+cp zabbix_redis/usr/local/bin/zabbix/zabbix_check_redis.py /etc/zabbix/script/redis/zabbix_check_redis.py
 #+执行权限
 chmod a+x /etc/zabbix/script/redis/zabbix_check_redis.py
 ```
